@@ -25,6 +25,6 @@ Kimi AI on your desktop — simple, fast, and ready to use.
 1. Download or clone the repository:
 
 ```bash
-git clone https://github.com/Sysdrimver0/Kimi-AI-Desktop.git
+git clone https://github.com/Sysdriver0/Kimi-AI-Desktop.git
 cd Kimi-AI-Desktop
 npm run build
