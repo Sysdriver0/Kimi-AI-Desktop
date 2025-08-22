@@ -1,0 +1,43 @@
+{
+  "name": "kimi-app",
+  "version": "1.2.0",
+  "description": "Kimi but on desktop",
+  "main": "main.js",
+  "author": "Sysdriver",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.sysdriver.kimi",
+    "productName": "Kimi",
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64", "ia32"]
+        }
+      ],
+      "icon": "assets/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "directories": {
+      "buildResources": "assets"
+    },
+    "files": [
+      "**/*"
+    ]
+  }
+}
+
