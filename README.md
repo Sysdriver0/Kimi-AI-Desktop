@@ -17,7 +17,6 @@ Kimi AI on your desktop — simple, fast, and ready to use.
 ## Screenshots
 
 ![Main Window](assets/screenshot-main.png)
-![Tray Icon](assets/screenshot-tray.png)
 
 ---
 
