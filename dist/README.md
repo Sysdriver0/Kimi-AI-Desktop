@@ -1,7 +1,2 @@
-Kimi Desktop App
-
-A simple electron based app for kimi AI
-
-Thanks for downloading
-
-fixes : Google auth finally works 
+This project is fully open-source and free to use, modify, and distribute
+Just give me credits thanks.
